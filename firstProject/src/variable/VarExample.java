@@ -14,7 +14,7 @@ public class VarExample {
 		System.out.println(var2);
 		
 		int sum = var1 + (int) var2; // byte, char, short, int, long
-		String name = "Hong";
+		String name = "홍미림";
 		char chr = 'A';
 		chr++;
 		chr++;
