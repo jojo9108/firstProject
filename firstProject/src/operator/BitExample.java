@@ -11,20 +11,22 @@ public class BitExample {
 		var2 = var1 = 10;
 		
 		result = var1 + var2;
-		result = sum(var1, var2);
+		result = sum(10, 10) +  sum(20, 20) + sum(30, 30);
 		System.out.println("결과값: " + result);
+		
+		String name = "김철수";
+		String str = welcomeMessage(name);
+		System.out.println(str);
 		
 	}
 
 	public static int sum(int a, int b) {
 		int val = a + b - 5;
-		return val;
-		
-		
+		return val;	
 	}	
 	
-	public static String getName() {
-		String name = "Welcome 홍길동";
+	public static String welcomeMessage(String n) {
+		String name = "Welcome " + n;
 		return name;
 	}
 	

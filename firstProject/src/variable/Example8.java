@@ -10,7 +10,7 @@ public class Example8 {
 		int result = 5 + byteValue;
 		float result = 5 + floatValue;
 		double result = 5 + doubleValue;
-		
+//		
 	}
 
 }

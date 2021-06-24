@@ -17,7 +17,7 @@ public class VarExample {
 		
 		System.out.println("두수의 곱: " + kor * eng);
 		
-		double sum1 = 0.5;
+		
 	}
 
 }
