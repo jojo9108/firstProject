@@ -6,7 +6,7 @@ public class WhileExample5 {
 	public static void main(String[] args) {
 		System.out.println("게임을 시작합니다.");
 		// 임의의 수 => 가위, 바위, 보
-		int ran = (int) (Math.random() * 3);
+		int ran = (int) (Math.random() * 3 +1);
 		String rsp = "";
 
 		Scanner scn = new Scanner(System.in);
