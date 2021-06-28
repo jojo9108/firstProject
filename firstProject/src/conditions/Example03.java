@@ -10,6 +10,6 @@ public class Example03 {
 			System.out.println("현재 i: " + i);
 			System.out.println(sum);
 		}
-	}
+	}//method
 
-}
+}// class
