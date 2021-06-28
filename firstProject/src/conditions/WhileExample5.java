@@ -22,9 +22,10 @@ public class WhileExample5 {
 
 			System.out.println("뭐 낼래?: ");
 			String name = scn.nextLine();
-			if (name.equals(name == rsp))
+			if (rsp.equals("가위")) {
+				if (rsp.equals("가위")) 
 				System.out.println("You draw");
-			
+			}
 			else if (name.equals("가위")) {
 				if (name.equals("보"))
 					;
